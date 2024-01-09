@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+ ;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1600px;
+  height: auto;
+}
+
+.title-image-container {
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(img/Rectangle\ 14.png);
+  margin: auto;
+}
+
+.title-text-contianer {
+  width: 390px;
+  height: auto;
+  margin: auto;
+}
+
+.title-1 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.titel-2 {
+  font-weight: 800;
+  font-size: 64px;
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+}
+
+.deal-container {
+  width: 802px;
+  height: 806px;
+  margin: auto;
+  text-align: center;
+}
+
+.deal-container h1 {
+  font-weight: 600;
+  color: red;
+  font-size: 4rem;
+}
+
+.deal-container h3 {
+  font-weight: 400;
+  color: red;
+  font-size: 1rem;
+}
+
+.deal-container h2 {
+  font-weight: 700;
+  color: #222;
+  font-size: 1.5rem;
+}
+
+.welcome-container {
+  width: 1320px;
+  height: 600px;
+  border-radius: 1rem;
+  margin: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(img/party.png);
+}
+
+.welcome-container h1 {
+  padding-top: 100px;
+  padding-left: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+}
+
+.welcome-container p {
+  padding-left: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.welcome-container button {
+  padding-left: 30px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.place-container {
+  width: 1320px;
+  height: 600px;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 50px auto;
+  background-image: linear-gradient(#ffe6e6, #ffffff);
+}
+
+.place-text-container {
+  padding-top: 100px;
+}
+
+.place-text-container h3 {
+  display: inline;
+  color: red;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.place-text-container p {
+  display: inline;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.place-text-container button {
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.offer-container {
+  width: 1320px;
+  height: 463px;
+  margin: auto;
+  display: flex;
+}
+
+.offer-container p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #07021199;
+  opacity: 60%;
+}
+
+.left-div h1 {
+  font-size: 48px;
+  color: #070211;
+  font-weight: 600;
+}
+
+.right-div h1 {
+  font-size: 48px;
+  color: red;
+  font-weight: 600;
+}
+
+.middle-div {
+  width: 463px;
+  height: 280px;
+  border: 15px solid red;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+
+.middle-div img {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  object-fit: fill;
+}
+
+.portfolio-container {
+  width: 1320px;
+  height: 1163px;
+  margin: auto;
+}
+
+.portfolio-text-container {
+  width: 600px;
+}
+
+.portfolio-text-container h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #070211;
+}
+
+.portfolio-text-container h2 {
+  font-weight: 700;
+  color: red;
+  font-size: 1rem;
+}
+
+.portfolio-text-container p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #07021199;
+  opacity: 60%;
+}
+
+.portfolio-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.subscribe-container {
+  width: 1320px;
+  height: 616px;
+  background-color: #ffe6e6;
+  border-radius: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-text-container {
+  width: 80%;
+  text-align: center;
+}
+
+.subscribe-container h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.subscribe-container p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #07021199;
+  opacity: 70%;
+}
+
+.subscribe-text-container input {
+  width: 300px;
+  padding: 1rem;
+  border: none;
+  border-radius: 4rem;
+}
+
+.subscribe-text-container button {
+  background-color: red;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0 4rem 4rem 0;
+}
+
+.footer {
+  width: 1600px;
+  height: 609px;
+  background-color: #070211;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 40px;
+}
+
+.footer i {
+  margin-right: 10px;
+}
+
+.footer-address {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hr {
+  width: 1200px;
+  border: 1px solid #ddd;
+}
+
+.footer-icons {
+  margin: auto;
+}
+
+.footer-icons i {
+  font-size: 2.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
